@@ -1,2 +1,1 @@
-# test2
-test2
+//android studioの練習1

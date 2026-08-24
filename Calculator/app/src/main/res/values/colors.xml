@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基本の色 -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- 電卓用のデザインカラー -->
+    <color name="calculator_bg">#121212</color>          <!-- アプリ全体の背景（ダークグレー） -->
+    <color name="calculator_screen_bg">#1E1E1E</color>   <!-- 画面表示窓の背景 -->
+    <color name="calculator_screen_text">#FFFFFF</color> <!-- 画面の文字色 -->
+
+    <color name="btn_number_bg">#2D2D2D</color>          <!-- 数字ボタンの背景 -->
+    <color name="btn_number_text">#FFFFFF</color>        <!-- 数字ボタンの文字色 -->
+
+    <color name="btn_operator_bg">#FF9800</color>        <!-- 演算子（＋, －, ×, ÷）の背景（オレンジ） -->
+    <color name="btn_operator_text">#FFFFFF</color>      <!-- 演算子の文字色 -->
+
+    <color name="btn_action_bg">#424242</color>          <!-- DELなどの特殊ボタンの背景 -->
+    <color name="btn_action_text">#FF9800</color>        <!-- DELの文字色 -->
+</resources>

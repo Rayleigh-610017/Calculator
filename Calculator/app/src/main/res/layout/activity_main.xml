@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/calculator_bg"
+    tools:ignore="ButtonStyle">
+
+    <!-- 計算結果の表示窓 -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_0"
+        android:textSize="48sp"
+        android:gravity="top|end"
+        android:padding="16dp"
+        android:background="@color/calculator_screen_bg"
+        android:textColor="@color/calculator_screen_text" />
+
+    <!-- 1行目: [ 1 ] [ 2 ] [ 3 ] [ DEL ] -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/CalculatorButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_1" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/CalculatorButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_2" />
+
+        <Button
+            android:id="@+id/btn3"
+            style="@style/CalculatorButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_3" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            style="@style/CalculatorButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_del" />
+    </LinearLayout>
+
+    <!-- 2行目: [ 4 ] [ 5 ] [ 6 ] [ ＋ ] -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/CalculatorButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_4" />
+
+        <Button
+            android:id="@+id/btn5"
+            style="@style/CalculatorButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_5" />
+
+        <Button
+            android:id="@+id/btn6"
+            style="@style/CalculatorButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_6" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            style="@style/CalculatorButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_add" />
+    </LinearLayout>
+
+    <!-- 3行目: [ 7 ] [ 8 ] [ 9 ] [ － ] -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btn7"
+            style="@style/CalculatorButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_7" />
+
+        <Button
+            android:id="@+id/btn8"
+            style="@style/CalculatorButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_8" />
+
+        <Button
+            android:id="@+id/btn9"
+            style="@style/CalculatorButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_9" />
+
+        <Button
+            android:id="@+id/btnSub"
+            style="@style/CalculatorButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_sub" />
+    </LinearLayout>
+
+    <!-- 4行目: [ 0 ] [ ÷ ] [ × ] [ ＝ ] -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btn0"
+            style="@style/CalculatorButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_0" />
+
+        <Button
+            android:id="@+id/btnDiv"
+            style="@style/CalculatorButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_div" />
+
+        <Button
+            android:id="@+id/btnMul"
+            style="@style/CalculatorButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_mul" />
+
+        <Button
+            android:id="@+id/btnEqual"
+            style="@style/CalculatorButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_equal" />
+    </LinearLayout>
+
+</LinearLayout>
